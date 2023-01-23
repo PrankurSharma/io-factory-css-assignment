@@ -8,7 +8,7 @@ Tech Stack: ReactJS and CSS
 
 1. Install this folder on your device.
 2. Open this folder on command line and type the following command:
-        npm install
+        "npm install"
    to install all required packages 
 3. Now run the following command to start the application in development mode:
-        npm start
+        "npm start"
