@@ -1,0 +1,28 @@
+.guide {
+    background-color: skyblue;
+    width: 98%;
+    margin-left: 10px;
+}
+
+.foodguide {
+    display: flex;
+}
+
+.subfood {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.subfooddish {
+    margin-top: 20%;
+    height: 500px;
+}
+
+.subdish {
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 10%;
+}

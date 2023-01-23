@@ -1,0 +1,121 @@
+.varieties {
+    display: flex;
+}
+
+.bigdiv1 {
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 12px;
+    width: 50%;
+    height: 500px;
+    background-image: url('./images/pizza.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bigsub {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: mediumslateblue;
+    opacity: 0.8;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.bigsub h1 {
+    margin-left: 10px;
+}
+
+.dishinfo {
+    width: 98%;
+    margin-left: 10px;
+}
+
+.exprate {
+    width: 98%;
+    display: flex;
+    margin-left: 10px;
+    position: relative;
+}
+
+.btn1, .btn2 {
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn2 {
+    position: absolute;
+    right: 10px;
+}
+
+.bigdiv2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    margin-left: 10px;
+}
+
+.subdiv1, .subdiv2 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.smalldiv1 {
+    background-image: url('./images/frenchfries.jpg');
+}
+
+.smalldiv2 {
+    background-image: url('./images/paneertikka.jpg');
+}
+
+.smalldiv3 {
+    background-image: url('./images/macaroon.jpg');
+}
+
+.smalldiv4 {
+    background-image: url('./images/doughnut.jpg');
+}
+
+.smalldiv1, .smalldiv2, .smalldiv3, .smalldiv4 {
+    border: 1px solid;
+    border-radius: 10px;
+    width: 48%;
+    height: 240px;
+    margin-right: 10px;
+    background-size: cover;
+    position: relative;
+}
+
+.smallsub {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    opacity: 0.8;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.smallsub h1, .smallsub h2 {
+    margin-left: 10px;
+}
+
+.bigdiv1, .smalldiv1, .smalldiv2, .smalldiv3, .smalldiv4 {
+    cursor: pointer;
+}
+
+.bigsub:hover, .smallsub:hover {
+    color: white;
+    background-color: black;
+}
+
+

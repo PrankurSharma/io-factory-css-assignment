@@ -1,0 +1,35 @@
+.chefs {
+    display: flex;
+    background-image: url('./images/chefback.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    width: 98%;
+    height: 300px;
+}
+
+.subchef {
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    height: 80%;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+}
+
+.subchef:hover {
+    color: black;
+    background-color: white;
+}
+
+.chefdet {
+    margin-top: 20px;
+}
+
+.chefdet img {
+    border-radius: 50%;
+}
